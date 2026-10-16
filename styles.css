@@ -1,0 +1,11 @@
+.notice-keyword-filter-list {
+  border-top: 1px solid var(--background-modifier-border);
+}
+
+.notice-keyword-filter-list .setting-item {
+  padding-left: var(--size-4-2);
+}
+
+.notice-keyword-filter-empty {
+  padding: var(--size-4-3) var(--size-4-2);
+}

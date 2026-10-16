@@ -1,0 +1,25 @@
+{
+  "name": "notice-keyword-filter",
+  "version": "1.0.0",
+  "description": "Hide Obsidian notices that contain user-defined keywords.",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node esbuild.config.mjs",
+    "build": "tsc --noEmit --skipLibCheck && node esbuild.config.mjs production"
+  },
+  "keywords": [
+    "obsidian",
+    "notification",
+    "notice",
+    "filter"
+  ],
+  "author": "zhiran",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.15.17",
+    "esbuild": "0.25.5",
+    "obsidian": "latest",
+    "typescript": "^5.8.3"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "id": "notice-keyword-filter",
+  "name": "Notice Keyword Filter",
+  "version": "1.0.0",
+  "minAppVersion": "1.5.0",
+  "description": "Hide Obsidian notices that contain user-defined keywords.",
+  "author": "zhiran",
+  "isDesktopOnly": false
+}
